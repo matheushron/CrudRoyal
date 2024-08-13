@@ -1,4 +1,3 @@
-<!-- ------------------------------------------------------------------------------------------- -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -17,38 +16,9 @@
     <?php
     include ("back.php")
     ?> 
-<table>
-  <tr>
-    <th>Produto</th>
-    <th>Preço</th>
-    <th>Quantidade em estoque</th>
-  </tr>
-  <tr>
-    <td>Lápis do tipo 2</td>
-    <td>R$1,50</td>
-    <td>
-        <?= $QtnLapis?>
-    </td>
-  </tr>
-  <tr>
-    <td>Caneta Esferográfica azul</td>
-    <td>R$2,00</td>
-    <td>
-        <?= $QtnCaneta?>
-    </td>
-  </tr>
-  <tr>
-    <td>Borracha Latex</td>
-    <td>R$3,50</td>
-    <td>
-        <?= $QtnBorracha?>
-    </td>
-  </tr>
-</table>
-
 <br>
 
-<form class = "FormularioUser" method="POST">
+<form class = "FormularioUser" method="POST" >
 
     <label class = "Labels" for="">Digite o número de lápis:</label>
     <input class = "InputNumerico" type="number" id="NumeroDeLapis" name="NumeroDeLapis" min="0" max="15">
@@ -65,16 +35,14 @@
 
     <br>
 
-
     <input class = "BotaoCalcula" type="submit" value="Calcular preço">
 
-    
 
     <div>
         <?php if ($MensagemFinal): ?>
             <p class="mensagemFinal"><?php echo $MensagemFinal; ?></p>
         <?php endif; ?>
-    </div>
+    </div> 
 
 </form>
 
