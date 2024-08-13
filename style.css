@@ -1,0 +1,51 @@
+
+.cabecalho{
+    display: flex;
+}
+
+.MensagemBemVindo{
+    /* background-color: rgb(73, 56, 47); */
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 5%;
+
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .FormularioUser{
+    margin-left: 40%;
+  }
+  .Labels{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+  }
+  .InputNumerico{
+    border-width: 1px;
+    border-radius: 10px;
+  }
+  .BotaoCalcula{
+    margin-top: 1em;
+    cursor: pointer;
+    background-color: #dddddd00;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .mensagemFinal{
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+  }

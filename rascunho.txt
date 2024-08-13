@@ -1,0 +1,4 @@
+incluir o arquivo   PHP:
+    <?php
+    include ("teste.php")?> 
+
